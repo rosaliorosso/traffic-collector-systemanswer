@@ -1,0 +1,19 @@
+{
+    "tenantid" : "TENANTID",
+    "nodelist" : [
+        {
+            "hostname": "HOSTNAME",
+            "hostid": "HOSTID",
+            "graphid": "GRAPHID",
+            "bandwidth": "BANDWIDTH",
+            "description": "DESCRIPTION"
+        },
+        {
+            "hostname": "HOSTNAME",
+            "hostid": "HOSTID",
+            "graphid": "GRAPHID",
+            "bandwidth": "BANDWIDTH",
+            "description": "DESCRIPTION"
+        }
+    ]
+}
