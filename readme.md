@@ -16,9 +16,9 @@ login.json
 
 | Left align | Right align |
 |:-----------|:------------|
-| baseurl    | SystemAnswerのURL |
-| username   | SystemAnswerのユーザID |
-| userpass   | SystemAnswerのユーザパスワード |
+| baseurl    | 必須。SystemAnswerのURL |
+| username   | 必須。SystemAnswerのユーザID |
+| userpass   | 必須。SystemAnswerのユーザパスワード |
 
 node.json
 
@@ -30,10 +30,10 @@ node.json
 | bandwidth    | 必須。トラフィック取得対象の帯域。グラフ描画時の縦軸上限値に使用 |
 | description  | 任意。トラフィック取得対象の注釈。日本語名など |
 
-ツール実行
+データ取得
 ---------------
 
-コマンドラインより下記の通りツールを起動してください。
+コマンドラインより下記の書式でツールを実行してください。
 `[START_DATE]`と`[END_DATE]`は、YYYY/MM/DD形式で取得開始日と取得終了日を指定してください。
 
 ```sh
@@ -49,6 +49,11 @@ optional arguments:
   --end_date [END_DATE]
                         specify a end date of data. Style: YYYY/MM/DD
 ```
+
+出力結果
+---------------
+
+outputsフォルダに出力ファイルが置かれます。
 
 動作環境
 ---------------
